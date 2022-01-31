@@ -1,0 +1,171 @@
+ /* Container(
+                    height: 1,
+                    width: double.infinity,
+                    decoration: BoxDecoration(border: Border.all(color: Colors.grey.withOpacity(0.5), width: 1.0, style: BorderStyle.solid)),
+                  ),
+
+
+                  Container(
+                    //color: Colors.grey.withOpacity(0.3),
+                    child: ListView(
+                      
+                                        children: [Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+                        children: [
+
+                          Text('RestoFriends', style: TextStyle(color: customBlue, fontSize: 18.0, fontWeight: FontWeight.w600)),
+
+                          Text('View all', style: TextStyle(color: customRed, fontSize: 14.0, fontWeight: FontWeight.w600))
+
+                          
+
+                        ],
+                      ),
+
+                      SizedBox(height: 20.0,),
+
+                      ListView(
+                        scrollDirection: Axis.horizontal,
+
+                        children: [
+                          Container(
+                            width: 150,
+                            height: 200,
+                            padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
+                            
+                            decoration: BoxDecoration(borderRadius: BorderRadius.circular(3.0), color: customWhite,),
+
+                            child: Column(
+                              children: [
+                                Row(
+                                  
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: [
+                                  Icon(Icons.control_point_outlined, color: customGrey, size: 10), 
+                                ],
+                                ),
+
+                                ClipRRect(borderRadius: BorderRadius.circular(5.0),
+                                  child: Image.asset('assets.manProfile2.jpeg', height: 40, width: 40, fit: BoxFit.fill,)),
+
+                                  SizedBox(height: 20.0,),
+
+                                  Text('Micheal Korwin', style: TextStyle(color: customBlue, fontSize: 15.0, fontWeight: FontWeight.w400),),
+
+                                  SizedBox(height: 10.0,),
+
+                                  Text('Top Tollets', style: TextStyle(color: customGrey, fontSize: 11.0, fontWeight: FontWeight.w400),),
+
+                                  SizedBox(height: 20.0,),
+
+                                  ElevatedButton(
+                                  onPressed: (){},
+                                  child: Text('Add Request', style: TextStyle(color: customWhite, fontSize: 13.0),),
+                                  
+                                   )
+
+
+
+                              ],
+                            ),
+                          )
+                        ],
+                      )
+                                        ]
+                    ),
+                  ),
+
+                  SizedBox(width: 10.0,),
+/* 
+                  Container(
+                            width: 150.0,
+                            height: 200.0,
+                            //padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
+
+                            //decoration: BoxDecoration(borderRadius: BorderRadius.circular(3.0)),
+
+                            child: Column(
+                              children: [
+                                Row(
+                                  
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: [
+                                  Icon(Icons.control_point_outlined, color: customGrey, size: 10), 
+                                ],
+                                ),
+
+                                ClipRRect(borderRadius: BorderRadius.circular(5.0),
+                                  child: Image.asset('assets.manProfile3.jpeg', height: 40, width: 40, fit: BoxFit.fill,)),
+
+                                  SizedBox(height: 20.0,),
+
+                                  Text('Alberto Conti', style: TextStyle(color: customBlue, fontSize: 15.0, fontWeight: FontWeight.w400),),
+
+                                  SizedBox(height: 10.0,),
+
+                                  Text('Top Tollets', style: TextStyle(color: customGrey, fontSize: 11.0, fontWeight: FontWeight.w400),),
+
+                                  SizedBox(height: 20.0,),
+
+                                  ElevatedButton(
+                                  onPressed: (){},
+                                  child: Text('Add Request', style: TextStyle(color: customWhite, fontSize: 13.0),),
+                                  
+                                   )
+
+
+
+                              ],
+                            ),
+                          ), */
+
+                          /* SizedBox(width: 10.0,),
+
+
+                          Container(
+                            width: 150,
+                            height: 200,
+                            padding: EdgeInsets.fromLTRB(10, 5, 10, 5),
+                            decoration: BoxDecoration(borderRadius: BorderRadius.circular(3.0), color: customWhite,),
+
+                            child: Column(
+                              children: [
+                                Row(
+                                  
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: [
+                                  Icon(Icons.control_point_outlined, color: customGrey, size: 10), 
+                                ],
+                                ),
+
+                                ClipRRect(borderRadius: BorderRadius.circular(5.0),
+                                  child: Image.asset('assets.manProfile1.jpeg', height: 40, width: 40, fit: BoxFit.fill,)),
+
+                                  SizedBox(height: 20.0,),
+
+                                  Text('Alex Iwobi', style: TextStyle(color: customBlue, fontSize: 15.0, fontWeight: FontWeight.w400),),
+
+                                  SizedBox(height: 10.0,),
+
+                                  Text('Top Tollets', style: TextStyle(color: customGrey, fontSize: 11.0, fontWeight: FontWeight.w400),),
+
+                                  SizedBox(height: 20.0,),
+
+                                  ElevatedButton(
+                                  onPressed: (){},
+                                  child: Text('Add Request', style: TextStyle(color: customWhite, fontSize: 13.0),),
+                                  
+                                   )
+
+
+
+                              ],
+                            ),
+                          ), */
+                      
+                  
+
+ */
+
+
